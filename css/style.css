@@ -550,6 +550,7 @@ footer .icons{
   font-size: 30px;
   color: #e2e2e2;
   font-family: 'ralewaylight', Arial, Tahoma, sans-serif;
+  line-height: 20px;
 }
 
 
@@ -614,7 +615,7 @@ footer .icons{
 }
 .image_part img{
   margin-top: 110px;
-  margin-left: 38px;
+  margin-left: 10px;
 }
 
 
@@ -632,7 +633,11 @@ footer .icons{
   height:195px;
   padding:10px;
   margin-top: 50px;
+}
 
+.summary_panel{
+  width: 350px;
+  right: 20px;
 }
 
 .application .green_button {
@@ -645,14 +650,13 @@ footer .icons{
   font-size: 24px;
   display: inline-block;
   font-family: 'ralewaymedium', Arial, Tahoma, sans-serif;
-  margin-top: 20px;
-  margin-left: 29px;
+  margin: 20px 25%;
   border-radius: 8px;
   text-decoration: none;
 }
 .panel_left {
   display: inline-block;
-  width: 185px;
+  width: 49%;
   vertical-align: top;
   padding-bottom:10px;
   border-bottom:1px solid #e7e7e7;
@@ -661,7 +665,7 @@ footer .icons{
 
 .panel_right {
   display: inline-block;
-  width: 100px;
+  width: 49%;
   border-left:1px solid #e7e7e7;
   text-align: right;
   vertical-align: top;
@@ -698,7 +702,7 @@ footer .icons{
 
 .sum {
   display: inline-block;
-  width: 100px;
+  width: 120px;
   text-align: right;
   margin-top: 10px;
   font-size: 22px;
@@ -713,8 +717,8 @@ footer .icons{
   border-top: 15px solid #24baa0;
   display:block;
   position: absolute;
-  right: 14px;
-  top: 20px;
+  right: 5px;
+  top: 15px;
   cursor: pointer;
 }
 
@@ -726,10 +730,10 @@ footer .icons{
   padding-bottom: 10px;
   list-style: none;
   margin: 0;
-  left: 0px;
+  left: -2px;
   z-index: 2;
   position: absolute;
-  top: 54px;
+  top: 40px;
   display:none;
 }
 .list_panel li {
